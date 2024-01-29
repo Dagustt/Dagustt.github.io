@@ -1,0 +1,132 @@
+
+.color {
+    background-color: rgb(189, 151, 210);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: xx-large;
+  
+}
+
+nav ul {
+    background-color: rgb(203, 171, 233);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline-flex;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    
+}
+
+.text {
+    background-color: rgb(226, 209, 243);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: rgb(247, 250, 253);
+    
+}
+
+div.galeria {
+    margin: 10px 20px; 
+    box-shadow: 0 4px 8px 0 rgb(212, 166, 249), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left; 
+    width: 350px;
+    justify-content: center;
+    
+}  
+
+div.galeria img {
+    width: 100%;
+    height: 350px;
+}
+
+div.galeria:hover {
+    border: 1px solid lightcoral;
+    transform: rotate(+3deg);
+}
+
+div.pie {
+    text-align: center;
+    padding: 10px;
+}
+
+.edit {
+    width: 200px;
+    justify-content: right;
+}
+
+
+
+.tes {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.edit {
+    margin-left: 15px;
+}
+
+.espacio {
+    text-align: center;
+}
+
+.contenedorr {
+    display: flex;
+text-align: justify;
+    background-color: rgb(180, 255, 209);
+    align-items: center;
+}
+
+.imagenn {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+    border-color: rgb(76, 197, 127);
+    border-style: solid;
+    border-width: 20px;
+}
+
+.contenedorr p {
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(108, 216, 133);
+    padding: 12px;
+    text-align: justify;
+}
+
+.sobreti {
+    background-color: rgb(113, 227, 140);
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.todo {
+    background-color: bisque;
+}
+
+.penultimo {
+    margin: 15px;
+    background-color: rgb(188, 236, 255);
+}
+
+
+.ultimo {
+    background-color: rgb(202, 246, 255);
+}
