@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test para mi omega</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="test-container">
+    <h1>¿Eres Alfa, Beta u Omega?</h1>
+    <p>Responde las siguientes preguntas, si te sale alfa, beta u omega me debes una salchipapa.</p>
+    <form id="quiz-form">
+      <!-- Pregunta 1 -->
+      <div class="question">
+        <h2>1. ¿Qué materia de administración de empresas disfrutaste más?</h2>
+        <label><input type="radio" name="q1" value="alfa"> Administración pública</label>
+        <label><input type="radio" name="q1" value="beta"> Gerencia ambiental</label>
+        <label><input type="radio" name="q1" value="omega"> Fundamentos de economía</label>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="question">
+        <h2>2. ¿Qué instrumento prefieres?</h2>
+        <label><input type="radio" name="q2" value="alfa"> Batería</label>
+        <label><input type="radio" name="q2" value="beta"> Guitarra acústica</label>
+        <label><input type="radio" name="q2" value="omega"> Violín</label>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="question">
+        <h2>3. ¿Qué bebida prefieres?</h2>
+        <label><input type="radio" name="q3" value="alfa"> Café</label>
+        <label><input type="radio" name="q3" value="beta"> Limonada de coco</label>
+        <label><input type="radio" name="q3" value="omega"> Té</label>
+      </div>
+
+
+      <!-- Pregunta 4 -->
+      <div class="question">
+        <h2>4. ¿Qué serie prefieres?</h2>
+        <label><input type="radio" name="q4" value="alfa"> She-Ra</label>
+        <label><input type="radio" name="q4" value="beta"> Arcane</label>
+        <label><input type="radio" name="q4" value="omega"> Steven Universe</label>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div class="question">
+        <h2>5. ¿Qué letra de la UPC le gusta más?</h2>
+        <label><input type="radio" name="q5" value="alfa"> U</label>
+        <label><input type="radio" name="q5" value="beta"> P</label>
+        <label><input type="radio" name="q5" value="omega"> C</label>
+      </div>
+
+       <!-- Pregunta 6 -->
+       <div class="question">
+        <h2>6. ¿Con quién iría a una fiesta alocada?</h2>
+        <label><input type="radio" name="q6" value="alfa"> Yuliana</label>
+        <label><input type="radio" name="q6" value="beta"> Iván</label>
+        <label><input type="radio" name="q6" value="omega"> Karina</label>
+      </div>
+
+       <!-- Pregunta 7 -->
+       <div class="question">
+        <h2>7. Imagina que tu padre es pobre, ¿En dónde lo pondrías a trabajar</h2>
+        <label><input type="radio" name="q7" value="alfa"> Cajero del D1</label>
+        <label><input type="radio" name="q7" value="beta"> Mecánico</label>
+        <label><input type="radio" name="q7" value="omega"> Proveedor de entretenimieto en los semaforos</label>
+      </div>
+
+       <!-- Pregunta 8 -->
+       <div class="question">
+        <h2>8. Imagina que tu madre es dueña de una fortuna, ¿En dónde la imaginas trabajando?</h2>
+        <label><input type="radio" name="q8" value="alfa"> Gerente de un hospital</label>
+        <label><input type="radio" name="q8" value="alfa"> Comerciante</label>
+        <label><input type="radio" name="q8" value="alfa"> Emprendedora de alimentos</label>
+      </div>
+
+      <!-- Pregunta 9 -->
+      <div class="question">
+        <h2>9. ¿En qué país tendrías tu vida perfecta?</h2>
+        <label><input type="radio" name="q9" value="alfa"> Colombia</label>
+        <label><input type="radio" name="q9" value="beta"> Suiza</label>
+        <label><input type="radio" name="q9" value="omega"> Italia</label>
+      </div>
+
+      <!-- Pregunta 10 -->
+      <div class="question">
+        <h2>10. ¿Me amas?</h2>
+        <label><input type="radio" name="q10" value="alfa"> Paparrucha</label>
+        <label><input type="radio" name="q10 value="beta"> Zapato</label>
+        <label><input type="radio" name="q10"value="omega"> Maracuyá</label>
+      </div>
+      
+      <button type="button" id="submit-btn">Descubrir mi personalidad</button>
+
+      
+    </form>
+
+    <img src="lobo.jpeg" alt="lobo que te representa" class="img">
+
+
+
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

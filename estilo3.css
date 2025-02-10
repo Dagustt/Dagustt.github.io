@@ -1,0 +1,112 @@
+.color3 {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: xx-large;
+}
+
+div.galeria {
+    margin: 10px 20px; 
+    box-shadow: 0 4px 8px 0 rgb(57, 57, 57), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left; 
+    width: 350px;
+    justify-content: center;
+    
+}  
+
+div.galeria img {
+    width: 100%;
+    height: 350px;
+}
+
+div.galeria:hover {
+    border: 1px solid rgb(8, 8, 8);
+    transform: rotate(+3deg);
+}
+
+div.pie {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contenedor de la galería */
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada galería individual */
+.galeria {
+    text-align: center;
+    flex: 1;
+}
+
+/* Bloque de curiosidades */
+.curiosidades2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    clear: both; /* Asegura que este bloque quede debajo de todo */
+}
+
+.pp {
+    text-align:center;
+}
+
+div.galeria2 {
+    margin: 20px 170px; 
+    box-shadow: 0 4px 8px 0 rgb(57, 57, 57), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left; 
+    width: 150px;
+    height: 300px;
+    justify-content: center;
+    
+}  
+
+div.galeria2 img {
+    width: 240px;
+    height: 250px;
+}
+
+div.galeria2:hover {
+    border: 1px solid rgb(8, 8, 8);
+    transform: rotate(+3deg);
+}
+
+div.pie2 {
+    text-align: center;
+    padding: 10px;
+}
+    .galeria-container2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    
+    /* Estilo para cada galería individual */
+    .galeria2 {
+        text-align: center;
+        flex: 1;
+    }
+
+    
+    .gato {
+        width: 80px; /* Ajusta el tamaño como desees */
+        height: 80px; /* Mantiene la proporción del GIF */
+    }
+
+    .title {
+        text-align: center;
+        color: cornflowerblue;
+    }
+
+    .gatu {
+      justify-content: center;
+        width: 500px;
+        height: 500px;
+    }
